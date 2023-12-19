@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffd;
+}
+
+.box {
+    position: absolute;
+    width: 380px;
+    height: 420px;
+    background: #fff;
+    border-radius: 8px;
+
+}
+
+.box form {
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+
+}
+
+.box form h2 {
+    text-align: center;
+    letter-spacing: 0.1px;
+    padding: 20px;
+
+}
+
+.box form .inputbox {
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+
+}
+
+.box form .inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    transition: 0.5s;
+    font-weight: bold;
+    z-index: 10;
+    text-align: center;
+
+
+}
+
+.box form .inputbox span {
+    position: absolute;
+    left: 0;
+    color: #8f8f8f;
+    padding: 20px 10px 10px;
+    font-size: 13px;
+    transition: 0.5s;
+    margin-left: 100px;
+
+}
+
+.box form .inputbox input:focus~span,
+.box form .inputbox input:valid~span {
+    font-size: 10px;
+    transform: translateY(-34px);
+}
+
+.box form .inputbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: 2px;
+    background: #4f504f;
+    border-radius: 4px;
+    margin-left: 100px;
+}
+
+.box form button {
+    width: 200px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid #999;
+    background-color: black;
+    color: yellow;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.box form .logg {
+    width: 200px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid #999;
+    background-color: rgb(90, 90, 85);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 100px;
+}
+
+.box form .logg:hover {
+    width: 200px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid #999;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 100px;
+}
+
+.links {
+    text-align: right;
+    margin-right: 80px;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.lin {
+    text-align: center;
+}
+
+.lin a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    transform: translateX(330px);
+
+}
+
+.loggg {
+    background-color: yellow;
+    width: 380px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
