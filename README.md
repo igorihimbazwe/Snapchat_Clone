@@ -1,1 +1,1 @@
-This is the clone of Snapchat created using HTML and CSS only
+This is the clone of Snapchat Login page created using HTML and CSS only
