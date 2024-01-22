@@ -50,16 +50,20 @@ body {
 
 .box form .inputbox input {
     position: relative;
-    width: 100%;
+
+    width: 100;
     padding: 20px 10px 10px;
     background: transparent;
     outline: none;
     border: none;
     box-shadow: none;
-    transition: 0.5s;
+    transition: 1s;
     font-weight: bold;
     z-index: 10;
-    text-align: center;
+    margin-left: 99px;
+
+
+
 
 
 }
@@ -133,7 +137,7 @@ body {
     justify-content: center;
     margin: 20px;
     border-radius: 30px;
-    border: 1px solid #999;
+    border: 1px solid yellow;
     background-color: yellow;
     color: black;
     font-weight: bold;
@@ -152,6 +156,7 @@ body {
 
 .links a {
     text-decoration: none;
+    font-weight: bold;
 }
 
 .lin {
@@ -164,7 +169,7 @@ body {
     font-weight: bold;
 }
 
-.logo {
+.loggg img {
     height: 40px;
     width: 40px;
     border-radius: 50px;
@@ -180,4 +185,17 @@ body {
     padding-bottom: 10px;
 
 
+}
+
+label {
+    text-align: center;
+    margin-left: 33px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.or {
+    text-align: center;
+    padding-top: 20px;
+    color: #8f8f8f;
 }
